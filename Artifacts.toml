@@ -1,0 +1,20 @@
+[[rocSOLVER]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9ecfcfb7ef6d4dbfeb63615995638566799576a8"
+libc = "glibc"
+os = "linux"
+
+    [[rocSOLVER.download]]
+    sha256 = "1011448271480c5970a9bd4805189f719985db70673f0daecf62274b57f3b77f"
+    url = "https://github.com/JuliaBinaryWrappers/rocSOLVER_jll.jl/releases/download/rocSOLVER-v4.2.0+0/rocSOLVER.v4.2.0.x86_64-linux-gnu-cxx11.tar.gz"
+[[rocSOLVER]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "20e3c5782c737484b4f06ad436102ce6b300d3bc"
+libc = "musl"
+os = "linux"
+
+    [[rocSOLVER.download]]
+    sha256 = "61922e02b77453944fd8402fa0569eb096dab9f94807ede33c8863e92e02fdca"
+    url = "https://github.com/JuliaBinaryWrappers/rocSOLVER_jll.jl/releases/download/rocSOLVER-v4.2.0+0/rocSOLVER.v4.2.0.x86_64-linux-musl-cxx11.tar.gz"
